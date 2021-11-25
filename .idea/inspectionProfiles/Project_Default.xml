@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="gdown" />
+            <item index="1" class="java.lang.String" itemvalue="JPype1" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.QWidget" />
+          <option value="PyQt5.QLineEdit" />
+          <option value="PyQt5.QApplication" />
+          <option value="PyQt5.QMainWindow" />
+          <option value="jpype.startJVM" />
+          <option value="jpype.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
